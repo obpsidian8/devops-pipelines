@@ -20,5 +20,10 @@ jobs:
 
       - name: Run tests
         run: npm test
+  Echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Message
+        run: echo "This is the echo job"
 
       
