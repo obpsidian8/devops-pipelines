@@ -22,6 +22,7 @@ jobs:
         run: npm test
   Echo:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Echo Message
         run: echo "This is the echo job"
