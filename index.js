@@ -1,2 +1,2 @@
 console.log("Hello, DevOps!");
-console.log("This is a sample Node.js application for DevOps pipelines.");
+console.log("This is a sample Node.js application for DevOps pipelines. Lets go!");
