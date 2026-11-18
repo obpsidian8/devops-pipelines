@@ -29,7 +29,7 @@ jobs:
       
   log-process:
     runs-on: ubuntu-latest
-    needs: build-job
+    needs: [build-job, echo-job]
     steps:
       - name: Log Message
         run: echo "This is the log process job"
